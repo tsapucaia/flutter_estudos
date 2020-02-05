@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_mobx_todolist/screens/home_screen.dart';
+import 'package:flutter_firestore/screens/home_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -10,10 +10,6 @@ class MyApp extends StatelessWidget {
       title: 'Lista de Tarefas',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-      ),
-      darkTheme: ThemeData(
-        brightness: Brightness.dark,
-        primarySwatch: Colors.red,
       ),
       home: Home(),
       debugShowCheckedModeBanner: false,
